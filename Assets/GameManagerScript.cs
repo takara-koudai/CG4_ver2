@@ -56,7 +56,6 @@ public class GameManagerScript : MonoBehaviour
             float x = Random.Range(-3.0f, 3.0f);
             Instantiate(enemy, new Vector3(x, 0, 10), Quaternion.identity);
         }
-
     }
 
     private void FixedUpdate()
@@ -84,6 +83,5 @@ public class GameManagerScript : MonoBehaviour
 
         //スコア表示
         scoreText.text = "SCORE" + score;
-
     }
 }

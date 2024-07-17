@@ -6,7 +6,6 @@ public class bulletScript : MonoBehaviour
 {
 
     public Rigidbody rb;
-
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "EnemyTag")

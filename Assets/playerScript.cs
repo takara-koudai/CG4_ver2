@@ -31,7 +31,6 @@ public class playerScript : MonoBehaviour
         gameManagerScript = gameManager.GetComponent<GameManagerScript>();
     }
 
-
     void FixedUpdate()
     {
         if(gameManagerScript.isGameOver() == true)
