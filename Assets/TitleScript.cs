@@ -21,7 +21,7 @@ public class TitleScript : MonoBehaviour
     {
         //タイマーにより[Hit space]が点滅
         timer++;
-        if (timer % 600 > 200)
+        if (timer % 400 > 200)
         {
             hitKey.SetActive(false);
         }
